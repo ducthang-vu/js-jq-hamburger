@@ -10,6 +10,7 @@ const closeButton = $('.hamburger-menu a.close')
 const menu = $('header .hamburger-menu')
 
 
+/* EVENTS */
 $(openButton).click(function() { 
     menu.show();
 });
