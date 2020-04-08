@@ -12,10 +12,10 @@ const menu = $('header .hamburger-menu')
 
 /* EVENTS */
 $(openButton).click(function() { 
-    menu.show();
+    menu.toggle();;
 });
 
 
 $(closeButton).click(function() { 
-    menu.hide();
+    menu.toggle();;
 });
