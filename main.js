@@ -10,3 +10,11 @@ const closeButton = $('.hamburger-menu a.close')
 const menu = $('header .hamburger-menu')
 
 
+$(openButton).click(function() { 
+    menu.show();
+});
+
+
+$(closeButton).click(function() { 
+    menu.hide();
+});
